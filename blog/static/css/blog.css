@@ -1,0 +1,60 @@
+/* Estilo para el cuerpo de la página */
+body {
+    padding-left: 15px;
+}
+
+/* Estilo para el encabezado de la página */
+.page-header {
+    background-color: #C25100;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+/* Estilo para la fecha de publicación */
+.date {
+    color: #828282;
+}
+
+/* Estilo para los posts */
+.post {
+    margin-bottom: 70px;
+}
+
+/* Estilo para el título de cada post */
+.post h2 a, .post h2 a:visited {
+    color: #000000;
+}
+
+/* Estilo para la tipografía de los encabezados */
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+/* Estilo para la sección de contenido */
+.content {
+    margin-left: 40px;
+}
+
+/* Estilo para los elementos del menú */
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+/* Estilo para la forma de publicación */
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+/* Estilo para el botón de guardar */
+.save {
+    float: right;
+}
